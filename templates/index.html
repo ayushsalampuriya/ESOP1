@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ESOP - Every Service At One Place</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/clean-blog.min.css') }}" rel="stylesheet">
+
+  </head>
+
+  <body background="static/img/image7.jpg">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index">ESOP</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/categories">categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Login/register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/home1-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>ESOP</h1>
+              <span class="subheading">Every Service At One Place</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+    <!-- fetch using database -->
+            <hr>
+            <a href="/categories"><img src="static/img/image1.jpg" class="rounded float-right" title="ESOP" alt="ESOP"></a>
+<!--            <img src="static/img/image2.jpg" class="rounded float-right"  alt="about">-->
+          <a href="/categories"><img src="static/img/image2.jpg" title="ESOP" alt="ESOP"></a>
+            <hr>
+          <a href="/categories"><img src="static/img/image3.jpg" title="ESOP" alt="ESOP"></a>
+          <a href="/categories"><img src="static/img/image4.png" class="rounded float-right" title="ESOP" alt="ESOP"></a>
+            <hr>
+          <a href="/categories"><img src="static/img/image5.jpg"  title="ESOP" alt="ESOP"></a>
+           <a href="/categories"><img src="static/img/image5.jpg" class="rounded float-right" title="ESOP" alt="ESOP"></a>
+            <hr>
+           <a class="btn btn-primary btn" href="/categories" role="button">See All Categories</a>
+          <hr>
+
+
+
+ </body>
+
+</html>
